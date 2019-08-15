@@ -1,0 +1,15 @@
+.grid{
+    width: 500px;
+    display: grid;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    grid-row-gap: 0;
+    grid-column-gap: 0;
+}
+.grid span{
+    display: inline-block;
+    height: 50px;
+    background: #999999;
+    outline: 1px solid #333;
+}
